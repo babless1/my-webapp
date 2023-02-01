@@ -21,27 +21,7 @@
 	  <sonar.login>b04b150a125ece30c8db07fc7fc2b3966842ebab</sonar.login> 
   </properties>
 
-  <dependencies>
-    <dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-web</artifactId>
- </dependency>
-<dependency>
-       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-devtools</artifactId>
-      <scope>runtime</scope>
-      <optional>true</optional>
-</dependency>
-<dependency>
-     <groupId>org.springframework.boot</groupId>
-     <artifactId>spring-boot-starter-tomcat</artifactId>
-     <scope>provided</scope>
-     </dependency>
-     <dependency>
-     <groupId>org.springframework.boot</groupId>
-     <artifactId>spring-boot-starter-test</artifactId>
-     <scope>test</scope>
-</dependency>    
+  <dependencies>   
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
