@@ -17,7 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.host.url>http://3.93.183.91:9000/</sonar.host.url>
+    <sonar.host.url>http://204.236.192.138:9000/</sonar.host.url>
 	  <sonar.login>b04b150a125ece30c8db07fc7fc2b3966842ebab</sonar.login> 
   </properties>
 
@@ -73,4 +73,15 @@
       </plugins>
     </pluginManagement>
   </build>
+<build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.7.0.1746</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
 </project>
