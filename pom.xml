@@ -71,9 +71,6 @@
           <version>2.8.2</version>
         </plugin>
       </plugins>
-    </pluginManagement> 
-     <pluginManagement>
-      <plugins>
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
